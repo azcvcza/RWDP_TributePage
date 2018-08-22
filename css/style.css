@@ -6,7 +6,7 @@ body {
   width: 100%;
   height: 100%; }
 
-.main {
+#main {
   width: 100%;
   height: 100%;
   background-color: lightgrey;
@@ -29,19 +29,21 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px; }
 
-.img-div {
+#img-div {
   background-color: white;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center; }
-  .img-div #image {
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
-    height: 90%; }
-  .img-div #img-caption {
+  justify-content: center; 
+  align-items: center;
+}
+  #img-div #image {
+    
+    width: 1024px;
+    height:623px; 
+  }
+  #img-div #img-caption {
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
